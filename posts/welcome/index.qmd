@@ -7,7 +7,7 @@ knitr:
     fig.path: ../../figures/post-figures/welcome/
 ---
 
-This is the first post in a Quarto blog that demonstrates how to have a relative figure path with a git subtree.
+This is the first post in a Quarto blog that demonstrates how to have a relative figure path with a git submodule.
 
 ```{r}
 #| label: example-plot
