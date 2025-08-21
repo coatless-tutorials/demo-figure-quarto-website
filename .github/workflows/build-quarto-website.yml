@@ -18,7 +18,8 @@ jobs:
             pages: write
             id-token: write
         steps:
-        
+
+        # Checkout repository and submodules
         - name: "Check out repository"
           uses: actions/checkout@v5
           with:
@@ -33,7 +34,7 @@ jobs:
         - name: "Render working directory"
           uses: quarto-dev/quarto-actions/render@v2
           with:
-            path: "docs"
+            path: "."
 
 
         # Upload a tar file that will work with GitHub Pages
@@ -43,7 +44,7 @@ jobs:
           uses: actions/upload-pages-artifact@v3
           with: 
             retention-days: 1
-            path: 'docs/_site'
+            path: '_site'
 
         
         # Use an Action deploy to push the artifact onto GitHub Pages
