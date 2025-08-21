@@ -1,0 +1,15 @@
+---
+title: "Welcome To My Blog"
+date: "2025-08-17"
+categories: [news]
+knitr:
+  opts_chunk:
+    fig.path: ../../figures/post-figures/welcome/
+---
+
+This is the first post in a Quarto blog that demonstrates how to have a relative figure path with a git subtree.
+
+```{r}
+#| label: example-plot
+plot(cars)
+```

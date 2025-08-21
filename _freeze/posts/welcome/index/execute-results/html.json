@@ -1,0 +1,15 @@
+{
+  "hash": "0f3769063ba26b207b7a42288c34d1c9",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Welcome To My Blog\"\ndate: \"2025-08-17\"\ncategories: [news]\nknitr:\n  opts_chunk:\n    fig.path: ../../figures/post-figures/welcome/\n---\n\nThis is the first post in a Quarto blog that demonstrates how to have a relative figure path with a git subtree.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(cars)\n```\n\n::: {.cell-output-display}\n![](../../figures/post-figures/welcome/example-plot-1.png){width=672}\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
